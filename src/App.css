@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+
+.navbar{
+  background-color: bisque;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.logo{
+  width: 300px;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: tomato;
+  font-size: x-large;
+  align-items: center;
+  
+}
+
+
+.logo a{
+  text-decoration: none;
+  color: tomato;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.auth{
+  background-color: transparent;
+  border: none;
+  margin-right: 50px;
+  font-size: xx-large;
   color: white;
+  transition: 0.2s;
+}
+.auth:hover {
+  /* background-color: tomato; */
+  color: tomato;
 }
 
-.App-link {
-  color: #61dafb;
+.btns{
+  width: 100px;
+  margin-right: 50px;
+  border: 1px solid white;
+  background-color: tomato;
+  color:white;
+  padding: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.todo{
+  text-align: center;
+  margin: 80px;
+}
+
+.list{
+  width: fit-content;
+  margin: auto;
+}
+
+.task{
+  width:30rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 0.8px 3px;
+  margin: 5px;
+  padding: 10px;
+  /* align-items: center; */
+}
+
+.task p{
+  color: rgb(0, 80, 0);
+  font-size: large;
+}
+
+.task button{
+  background-color: rgb(228, 41, 41);
+  border: none;
+  /* height: fit-content; */
+  color: white;
+  width: 100px;
+}
+
+.task button:hover{
+  background-color: transparent;
+  color: rgb(228, 41, 41);
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content p{
+  margin: 20px 0px 20px 10px;
+}
+
+.check{
+  width: 20px;
+  height: 20px;
+}
+
+
+.custom{
+  margin-right: 50px;
+}
+
+
+
+
+
+/* LogIn */
+
+.login_logout{
+  box-shadow: 1px 1px 5px;
+  padding: 20px;
+  width: 40rem;
+  text-align: center;
+  margin: 80px auto;
+}
+
+.login_logout input{
+  margin: 10px;
 }
