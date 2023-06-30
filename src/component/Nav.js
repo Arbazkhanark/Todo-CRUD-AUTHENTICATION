@@ -13,16 +13,16 @@ function Nav(){
                     </Link>
                 </div>
                     
-                <div class="btn-group custom" role="group" aria-label="Basic example">
+                <div className="btn-group custom" role="group" aria-label="Basic example">
 
                     <Link to="/login">
-                        <button type="button" class="btn btn-secondary">Log In</button>
+                        <button type="button" className="btn btn-secondary">Log In</button>
                     </Link>
                     <Link to="register">
-                        <button type="button" class="btn btn-secondary">Register</button>
+                        <button type="button" className="btn btn-secondary">Register</button>
                     </Link>
                     <Link to="logout">
-                        <button type="button" class="btn btn-danger">Log out</button>
+                        <button type="button" className="btn btn-danger">Log out</button>
                     </Link>
                 </div>
                     {/* <button className="auth"> <FaUser /> </button> */}
