@@ -26,8 +26,9 @@ export const Login = () => {
     <div className='login_logout'>
         <form onSubmit={(e)=>handleSubmit(e)}>
             <h1>Log In</h1>
-            <input onChange={(e)=>setMail(e.target.value)} type='email' placeholder='Enter Your Username' /> <br />
-            <input onChange={(e)=>setPassword(e.target.value)} type='password' placeholder='Enter Your Password' /> <br />
+            <input onChange={(e)=>setMail(e.target.value)} type='email' placeholder='Enter Your Username' value={mail} /> <br />
+            <input onChange={(e)=>setPassword(e.target.value)} type='password' placeholder='Enter Your Password' value={password
+            } /> <br />
             <button className='btns'>Log In</button>
         </form>
         <br />

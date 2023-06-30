@@ -21,7 +21,7 @@
 
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
-
+import 'firebase/compat/firestore';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBoxCdr6So340EwahaVx9bf7GwxRByGxms",
@@ -35,4 +35,8 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+// Access the DataBase
+const db=firebase.firestore();
+
 export default firebase;
+export {db};
